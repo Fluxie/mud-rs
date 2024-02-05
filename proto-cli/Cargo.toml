@@ -1,0 +1,13 @@
+[package]
+name = "proto-cli"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+signature = { path = "../signature", version = "0.1.0" }
+signature-derive = { path = "../signature_derive", version = "0.1.0" }
+
+[dev-dependencies]
+sha3 = "0.10.8"
